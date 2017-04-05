@@ -47,3 +47,4 @@ nmake -f objs/Makefile
 
 ## References:
 http://nginx.org/en/docs/howto_build_on_win32.html
+http://blog.csdn.net/longji/article/details/52369618

@@ -13,7 +13,7 @@ auto/configure \
 --with-cc-opt=-DFD_SETSIZE=1024 \
 --with-pcre=objs/lib/pcre-8.40 \
 --with-zlib=objs/lib/zlib-1.2.11 \
-rem --with-openssl=objs/lib/openssl-1.1.0e \
+--with-openssl=objs/lib/openssl-1.1.0e \
 --with-select_module  \
 --with-http_ssl_module \
 --add-module=objs/lib/nginx-rtmp-module

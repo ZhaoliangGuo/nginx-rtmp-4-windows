@@ -15,7 +15,7 @@ If the MinGW is installed in `C:\:`
 Open `C:\MinGW\msys\1.0\msys.bat`,
 add
 ```
-call "D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\vcvars32.bat"
+call "C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\vcvars32.bat"
 ```
 or
 ```
@@ -31,6 +31,7 @@ Then, Click the `msys.bat`.
 
 ### Step 3: build the nginx.exe using Command Prompt for VS2010
 Open `Command Prompt` in Visual Studio Tools.
+
 Run
 ```
 nmake -f objs/Makefile

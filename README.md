@@ -6,8 +6,8 @@ Build the nginx with nginx-rtmp-module in Windows.
 To build nginx on the Microsoft Win32® platform you need:
 Microsoft Visual C compiler. Microsoft Visual Studio® 8 and 10 are known to work.
 - MSYS. http://www.mingw.org/wiki/MSYS
-- Perl, if you want to build OpenSSL® and nginx with SSL support. For example ActivePerl or Strawberry Perl.
-- PCRE, zlib and OpenSSL libraries sources.
+- Perl, if you want to build OpenSSL® and nginx with SSL support. For example [ActivePerl](https://www.activestate.com/activeperl) or [Strawberry Perl](http://strawberryperl.com/).
+- [PCRE](http://www.pcre.org/), [zlib](http://zlib.net/) and [OpenSSL](https://www.openssl.org/source/) libraries sources.
   PCRE, zlib libraries sources already exist in the project.
 
 Download the OpenSSL source from https://www.openssl.org/source/
@@ -44,3 +44,6 @@ Run
 ```
 nmake -f objs/Makefile
 ```
+
+## References:
+http://nginx.org/en/docs/howto_build_on_win32.html
